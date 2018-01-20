@@ -11,18 +11,18 @@
   	</dependency>
   	
   	<!-- https://mvnrepository.com/artifact/de.ixilon/overpass-api -->
-<dependency>
-    <groupId>de.ixilon</groupId>
-    <artifactId>overpass-api</artifactId>
-    <version>0.6.1</version>
-</dependency>
+	<dependency>
+    	<groupId>de.ixilon</groupId>
+    	<artifactId>overpass-api</artifactId>
+    	<version>0.6.1</version>
+	</dependency>
   	
 <!-- https://mvnrepository.com/artifact/org.json/json -->
-<dependency>
-    <groupId>org.json</groupId>
-    <artifactId>json</artifactId>
-    <version>20171018</version>
-</dependency>
+	<dependency>
+    	<groupId>org.json</groupId>
+    	<artifactId>json</artifactId>
+    	<version>20171018</version>
+	</dependency>
 
   </dependencies>
 </project>

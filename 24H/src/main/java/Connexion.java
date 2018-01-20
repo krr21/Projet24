@@ -5,6 +5,8 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import org.json.JSONObject;
+
 
 public class Connexion {
 	
@@ -17,6 +19,7 @@ public class Connexion {
             JSONObject auth = new JSONObject();
             auth.put("ant1@blue.ant", "Deep");
             data.put("auth", auth);
+            
 
             // URL and parameters for the connection, This particulary returns the information passed
             URL url = new URL("https://f24h2018.herokuapp.com/auth/local");
