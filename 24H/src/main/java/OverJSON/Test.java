@@ -8,7 +8,7 @@ import java.util.List;
 import org.json.JSONObject;
 import org.json.JSONWriter;
 
-public class test {
+public class Test {
 
 	public static void main(String[] args) {
 		/*try {

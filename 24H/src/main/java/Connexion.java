@@ -1,4 +1,3 @@
-import java.awt.PageAttributes.MediaType;
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.InputStreamReader;
@@ -46,6 +45,8 @@ public class Connexion {
             }
 
             // To receive the response
+
+          
             StringBuilder content = new StringBuilder();
             String line;
             while ((line = bufferedReader.readLine()) != null) {
