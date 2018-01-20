@@ -54,7 +54,7 @@ public class Node implements Serializable {
 	 
 	  public String toString() { 
 	    return "Node{" + 
-	        super.toString() + 
+	        "Id" + id + 
 	        "latitude=" + lat + 
 	        ", longitude=" + lon + 
 	        + '}'; 

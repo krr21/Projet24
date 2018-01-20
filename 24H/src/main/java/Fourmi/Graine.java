@@ -1,20 +1,19 @@
 package Fourmi;
 
-public class Graine {
+import java.io.Serializable;
+
+public class Graine extends Node implements Serializable{
 	
 	
-	public String lat;
-	public String lon;
+	private Node point;
 	
 	
 	public Graine() {
 		
 	}
-	public Graine(String latitude,String longitude) {
-		latitude = lat;
-		longitude = lon;
+	public Graine(Node node) {
+		node = point;
 	}
-	
 	public void deposerGraine() {
 		
 	}
@@ -23,26 +22,6 @@ public class Graine {
 		
 	}
 	
-	
-	public String getLat() {
-		return lat;
-	}
-
-	public void setLat(String lat) {
-		this.lat = lat;
-	}
-
-	public String getLon() {
-		return lon;
-	}
-
-	public void setLon(String lon) {
-		this.lon = lon;
-	}
-
-	public void main(String[] args) {
-		System.out.println("Hello");
-	}
 	
 	
 }
