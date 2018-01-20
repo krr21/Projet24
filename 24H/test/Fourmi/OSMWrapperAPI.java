@@ -191,7 +191,7 @@ import org.xml.sax.SAXException;
 		 * @throws ParserConfigurationException
 		 */
 		public static void main(String[] args) throws IOException, SAXException, ParserConfigurationException {
-			Authenticator.setDefault(new BasicAuthenticator("youruser", "yourpassword"));
+			//Authenticator.setDefault(new BasicAuthenticator("ant1@blue.ant", "Deep"));
 			List<OSMNode> osmNodesInVicinity = getOSMNodesInVicinity(49, 8.3, 0.005);
 			for (OSMNode osmNode : osmNodesInVicinity) {
 				System.out.println(osmNode.getId() + ":" + osmNode.getLat() + ":" + osmNode.getLon());

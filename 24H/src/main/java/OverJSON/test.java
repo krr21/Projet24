@@ -11,7 +11,7 @@ import org.json.JSONWriter;
 public class test {
 
 	public static void main(String[] args) {
-		try {
+		/*try {
 			String url = "";
 			JSONReader reader = new JsonReader(new InputStreamReader(
 					new FileInputStream(url)));
@@ -36,7 +36,7 @@ public class test {
 			}
 		} catch (Exception e) {
 			System.err.println(e.getMessage());
-		}
+		}*/
 
 	}
 

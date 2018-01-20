@@ -14,14 +14,14 @@ public class Connexion {
 
         try {
         	
-            // Construct manually a JSON object in Java, for testing purposes an object with an object
+            // Construct manually a JSON object in Java
             JSONObject data = new JSONObject();
             JSONObject auth = new JSONObject();
             auth.put("ant1@blue.ant", "Deep");
             data.put("auth", auth);
             
 
-            // URL and parameters for the connection, This particulary returns the information passed
+            // URL and parameters for the connection
             URL url = new URL("https://f24h2018.herokuapp.com/auth/local");
             HttpURLConnection httpConnection  = (HttpURLConnection) url.openConnection();
             httpConnection.setDoOutput(true);

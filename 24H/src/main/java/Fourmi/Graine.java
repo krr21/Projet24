@@ -1,5 +1,7 @@
 package Fourmi;
 
+import java.io.Serializable;
+
 public class Graine extends Node implements Serializable{
 	
 	
