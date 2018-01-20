@@ -16,9 +16,7 @@ public class Node implements Serializable {
 	    lat = latitude; 
 	    lon= longitude; 
 	  } 
-	 
-	 
-	 
+	  
 	  public double getLatitude() { 
 	    return lat; 
 	  } 

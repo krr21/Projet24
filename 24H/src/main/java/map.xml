@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.54.12 054bb0bb">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2018-01-20T21:03:01Z"/>
+
+  <node id="432920696" lat="47.9831230" lon="0.2335649">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"/>
+  </node>
+  <node id="432920699" lat="47.9839932" lon="0.2352522">
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"/>
+  </node>
+  <node id="432920700" lat="47.9847570" lon="0.2367817">
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"/>
+  </node>
+  <node id="432920702" lat="47.9849408" lon="0.2374676">
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"/>
+  </node>
+  <node id="432920704" lat="47.9849424" lon="0.2384647">
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"/>
+  </node>
+  <node id="432920706" lat="47.9847741" lon="0.2397382">
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"/>
+  </node>
+  <node id="432921273" lat="47.9838077" lon="0.2349042">
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"/>
+  </node>
+  <node id="1244860674" lat="47.9848270" lon="0.2369644"/>
+  <node id="1244860681" lat="47.9849552" lon="0.2376945"/>
+  <node id="1244860719" lat="47.9849035" lon="0.2390012"/>
+  <node id="1244860734" lat="47.9848716" lon="0.2371191"/>
+  <node id="1244860750" lat="47.9827951" lon="0.2328702"/>
+  <node id="1244860768" lat="47.9849162" lon="0.2372807"/>
+  <node id="1244860780" lat="47.9849623" lon="0.2379394"/>
+  <node id="1244860790" lat="47.9828162" lon="0.2329240"/>
+  <node id="1244860811" lat="47.9826957" lon="0.2326908"/>
+  <node id="1244860894" lat="47.9829081" lon="0.2331228"/>
+  <node id="1244860918" lat="47.9827566" lon="0.2327841">
+    <tag k="bicycle" v="yes"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1245954980" lat="47.9844282" lon="0.2419890"/>
+  <node id="1364498217" lat="47.9843764" lon="0.2416894">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1523285151" lat="47.9847175" lon="0.2397250"/>
+  <node id="1523285154" lat="47.9848444" lon="0.2373212"/>
+  <node id="1523285160" lat="47.9848336" lon="0.2388045"/>
+  <node id="1523285163" lat="47.9846631" lon="0.2367043"/>
+  <node id="1523285168" lat="47.9848785" lon="0.2382788"/>
+  <node id="1523285179" lat="47.9846600" lon="0.2400737"/>
+  <node id="1523285189" lat="47.9846977" lon="0.2398860"/>
+  <node id="1523285191" lat="47.9847474" lon="0.2369940"/>
+  <node id="1523285192" lat="47.9848803" lon="0.2379435"/>
+  <node id="1523285203" lat="47.9845162" lon="0.2407830"/>
+  <node id="1523285205" lat="47.9846530" lon="0.2365735"/>
+  <node id="1523285206" lat="47.9843997" lon="0.2418869"/>
+  <node id="1523285216" lat="47.9845954" lon="0.2403768"/>
+  <node id="1523285224" lat="47.9847552" lon="0.2394219"/>
+  <node id="1523285230" lat="47.9848647" lon="0.2375740"/>
+  <node id="1523285239" lat="47.9844895" lon="0.2409293"/>
+  <node id="1605755166" lat="47.9832270" lon="0.2337684"/>
+  <node id="1633035268" lat="47.9840556" lon="0.2353772"/>
+  <node id="1944597894" lat="47.9831582" lon="0.2336339"/>
+  <node id="1944597952" lat="47.9839747" lon="0.2352175"/>
+  <node id="2076811860" lat="47.9843891" lon="0.2416040">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="3239153298" lat="47.9827771" lon="0.2328292"/>
+  <way id="108519944">
+    <nd ref="1244860811"/>
+    <nd ref="1244860918"/>
+    <nd ref="3239153298"/>
+    <nd ref="1244860750"/>
+    <nd ref="1244860790"/>
+    <nd ref="1244860894"/>
+    <nd ref="432920696"/>
+    <nd ref="1944597894"/>
+    <nd ref="1605755166"/>
+    <nd ref="432921273"/>
+    <nd ref="1944597952"/>
+    <nd ref="432920699"/>
+    <nd ref="1633035268"/>
+    <nd ref="1523285205"/>
+    <tag k="cycleway" v="no"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Rue Henri Champion"/>
+    <tag k="oneway" v="no"/>
+    <tag k="sidewalk" v="right"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="138954538">
+    <nd ref="1523285205"/>
+    <nd ref="1523285163"/>
+    <nd ref="1523285191"/>
+    <nd ref="1523285154"/>
+    <nd ref="1523285230"/>
+    <nd ref="1523285192"/>
+    <nd ref="1523285168"/>
+    <nd ref="1523285160"/>
+    <nd ref="1523285224"/>
+    <nd ref="1523285151"/>
+    <nd ref="1523285189"/>
+    <nd ref="1523285179"/>
+    <nd ref="1523285216"/>
+    <nd ref="1523285203"/>
+    <nd ref="1523285239"/>
+    <nd ref="2076811860"/>
+    <nd ref="1364498217"/>
+    <nd ref="1523285206"/>
+    <nd ref="1245954980"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="317633832">
+    <nd ref="1523285205"/>
+    <nd ref="432920700"/>
+    <nd ref="1244860674"/>
+    <nd ref="1244860734"/>
+    <nd ref="1244860768"/>
+    <nd ref="432920702"/>
+    <nd ref="1244860681"/>
+    <nd ref="1244860780"/>
+    <nd ref="432920704"/>
+    <nd ref="1244860719"/>
+    <nd ref="432920706"/>
+    <tag k="cycleway" v="no"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Rue Henri Champion"/>
+    <tag k="sidewalk" v="no"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+
+</osm>
