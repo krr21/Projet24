@@ -3,4 +3,11 @@
   <groupId>Code24H</groupId>
   <artifactId>24H</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.0</version>
+  	</dependency>
+  </dependencies>
 </project>
