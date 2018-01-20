@@ -7,6 +7,19 @@ public class Fourmis {
 	private boolean support;
 	private Node position;
 	private boolean prioDroite;
+	private boolean feu = false;
+	private Trajet trajet;
+	
+	public boolean isFeu() {
+		return feu;
+	}
+
+
+	public void setFeu(boolean feu) {
+		this.feu = feu;
+	}
+
+
 	public double getVitesse() {
 		return vitesse;
 	}
@@ -37,7 +50,6 @@ public class Fourmis {
 	}
 
 
-	Feu feu = new Feu();
 	
 	public boolean isSens() {
 		return sens;
@@ -58,20 +70,9 @@ public class Fourmis {
 		this.support = support;
 	}
 
-
-	public Feu getFeu() {
-		return feu;
-	}
-
-
-	public void setFeu(Feu feu) {
-		this.feu = feu;
-	}
-	
-	
 	public boolean verifStopFeu(){
 		
-		if(feu.isFeu() == true)
+		if(feu == true)
 		{
 			if (vitesse == 0)
 			{
@@ -95,12 +96,15 @@ public class Fourmis {
 		}
 		return false;
 	}
-		
-		
 	
-
+	public boolean enDehors()
+	{
+		return false;
+	}
 	
-	
-	
+	public boolean routeInterdite()
+	{
+		return false;
+	}
 	
 }
