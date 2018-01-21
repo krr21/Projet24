@@ -1,0 +1,383 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.54.12 054bb0bb",
+  "osm3s": {
+    "timestamp_osm_base": "2018-01-20T21:17:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 432920696,
+  "lat": 47.9831230,
+  "lon": 0.2335649,
+  "tags": {
+    "crossing": "uncontrolled",
+    "highway": "crossing",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"
+  }
+},
+{
+  "type": "node",
+  "id": 432920699,
+  "lat": 47.9839932,
+  "lon": 0.2352522,
+  "tags": {
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"
+  }
+},
+{
+  "type": "node",
+  "id": 432920700,
+  "lat": 47.9847570,
+  "lon": 0.2367817,
+  "tags": {
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"
+  }
+},
+{
+  "type": "node",
+  "id": 432920702,
+  "lat": 47.9849408,
+  "lon": 0.2374676,
+  "tags": {
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"
+  }
+},
+{
+  "type": "node",
+  "id": 432920704,
+  "lat": 47.9849424,
+  "lon": 0.2384647,
+  "tags": {
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"
+  }
+},
+{
+  "type": "node",
+  "id": 432920706,
+  "lat": 47.9847741,
+  "lon": 0.2397382,
+  "tags": {
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"
+  }
+},
+{
+  "type": "node",
+  "id": 432921273,
+  "lat": 47.9838077,
+  "lon": 0.2349042,
+  "tags": {
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"
+  }
+},
+{
+  "type": "node",
+  "id": 1244860674,
+  "lat": 47.9848270,
+  "lon": 0.2369644
+},
+{
+  "type": "node",
+  "id": 1244860681,
+  "lat": 47.9849552,
+  "lon": 0.2376945
+},
+{
+  "type": "node",
+  "id": 1244860719,
+  "lat": 47.9849035,
+  "lon": 0.2390012
+},
+{
+  "type": "node",
+  "id": 1244860734,
+  "lat": 47.9848716,
+  "lon": 0.2371191
+},
+{
+  "type": "node",
+  "id": 1244860750,
+  "lat": 47.9827951,
+  "lon": 0.2328702
+},
+{
+  "type": "node",
+  "id": 1244860768,
+  "lat": 47.9849162,
+  "lon": 0.2372807
+},
+{
+  "type": "node",
+  "id": 1244860780,
+  "lat": 47.9849623,
+  "lon": 0.2379394
+},
+{
+  "type": "node",
+  "id": 1244860790,
+  "lat": 47.9828162,
+  "lon": 0.2329240
+},
+{
+  "type": "node",
+  "id": 1244860811,
+  "lat": 47.9826957,
+  "lon": 0.2326908
+},
+{
+  "type": "node",
+  "id": 1244860894,
+  "lat": 47.9829081,
+  "lon": 0.2331228
+},
+{
+  "type": "node",
+  "id": 1244860918,
+  "lat": 47.9827566,
+  "lon": 0.2327841,
+  "tags": {
+    "bicycle": "yes",
+    "crossing": "uncontrolled",
+    "highway": "crossing"
+  }
+},
+{
+  "type": "node",
+  "id": 1245954980,
+  "lat": 47.9844282,
+  "lon": 0.2419890
+},
+{
+  "type": "node",
+  "id": 1364498217,
+  "lat": 47.9843764,
+  "lon": 0.2416894,
+  "tags": {
+    "highway": "crossing"
+  }
+},
+{
+  "type": "node",
+  "id": 1523285151,
+  "lat": 47.9847175,
+  "lon": 0.2397250
+},
+{
+  "type": "node",
+  "id": 1523285154,
+  "lat": 47.9848444,
+  "lon": 0.2373212
+},
+{
+  "type": "node",
+  "id": 1523285160,
+  "lat": 47.9848336,
+  "lon": 0.2388045
+},
+{
+  "type": "node",
+  "id": 1523285163,
+  "lat": 47.9846631,
+  "lon": 0.2367043
+},
+{
+  "type": "node",
+  "id": 1523285168,
+  "lat": 47.9848785,
+  "lon": 0.2382788
+},
+{
+  "type": "node",
+  "id": 1523285179,
+  "lat": 47.9846600,
+  "lon": 0.2400737
+},
+{
+  "type": "node",
+  "id": 1523285189,
+  "lat": 47.9846977,
+  "lon": 0.2398860
+},
+{
+  "type": "node",
+  "id": 1523285191,
+  "lat": 47.9847474,
+  "lon": 0.2369940
+},
+{
+  "type": "node",
+  "id": 1523285192,
+  "lat": 47.9848803,
+  "lon": 0.2379435
+},
+{
+  "type": "node",
+  "id": 1523285203,
+  "lat": 47.9845162,
+  "lon": 0.2407830
+},
+{
+  "type": "node",
+  "id": 1523285205,
+  "lat": 47.9846530,
+  "lon": 0.2365735
+},
+{
+  "type": "node",
+  "id": 1523285206,
+  "lat": 47.9843997,
+  "lon": 0.2418869
+},
+{
+  "type": "node",
+  "id": 1523285216,
+  "lat": 47.9845954,
+  "lon": 0.2403768
+},
+{
+  "type": "node",
+  "id": 1523285224,
+  "lat": 47.9847552,
+  "lon": 0.2394219
+},
+{
+  "type": "node",
+  "id": 1523285230,
+  "lat": 47.9848647,
+  "lon": 0.2375740
+},
+{
+  "type": "node",
+  "id": 1523285239,
+  "lat": 47.9844895,
+  "lon": 0.2409293
+},
+{
+  "type": "node",
+  "id": 1605755166,
+  "lat": 47.9832270,
+  "lon": 0.2337684
+},
+{
+  "type": "node",
+  "id": 1633035268,
+  "lat": 47.9840556,
+  "lon": 0.2353772
+},
+{
+  "type": "node",
+  "id": 1944597894,
+  "lat": 47.9831582,
+  "lon": 0.2336339
+},
+{
+  "type": "node",
+  "id": 1944597952,
+  "lat": 47.9839747,
+  "lon": 0.2352175
+},
+{
+  "type": "node",
+  "id": 2076811860,
+  "lat": 47.9843891,
+  "lon": 0.2416040,
+  "tags": {
+    "highway": "crossing"
+  }
+},
+{
+  "type": "node",
+  "id": 3239153298,
+  "lat": 47.9827771,
+  "lon": 0.2328292
+},
+{
+  "type": "way",
+  "id": 108519944,
+  "nodes": [
+    1244860811,
+    1244860918,
+    3239153298,
+    1244860750,
+    1244860790,
+    1244860894,
+    432920696,
+    1944597894,
+    1605755166,
+    432921273,
+    1944597952,
+    432920699,
+    1633035268,
+    1523285205
+  ],
+  "tags": {
+    "cycleway": "no",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Rue Henri Champion",
+    "oneway": "no",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 138954538,
+  "nodes": [
+    1523285205,
+    1523285163,
+    1523285191,
+    1523285154,
+    1523285230,
+    1523285192,
+    1523285168,
+    1523285160,
+    1523285224,
+    1523285151,
+    1523285189,
+    1523285179,
+    1523285216,
+    1523285203,
+    1523285239,
+    2076811860,
+    1364498217,
+    1523285206,
+    1245954980
+  ],
+  "tags": {
+    "highway": "cycleway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 317633832,
+  "nodes": [
+    1523285205,
+    432920700,
+    1244860674,
+    1244860734,
+    1244860768,
+    432920702,
+    1244860681,
+    1244860780,
+    432920704,
+    1244860719,
+    432920706
+  ],
+  "tags": {
+    "cycleway": "no",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Rue Henri Champion",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+}
+
+  ]
+}

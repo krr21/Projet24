@@ -8,7 +8,7 @@ public class Fourmis {
 	private Node position;
 	private boolean prioDroite;
 	private boolean feu = false;
-	private Trajet trajet;
+	
 	
 	public boolean isFeu() {
 		return feu;
@@ -105,6 +105,11 @@ public class Fourmis {
 	public boolean routeInterdite()
 	{
 		return false;
+	}
+	
+	public void deplacement() {
+		
+		
 	}
 	
 }
