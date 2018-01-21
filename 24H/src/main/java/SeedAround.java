@@ -14,7 +14,6 @@ public class SeedAround {
 	//private static final Logger LOG = Logger.getLogger(SeedAround.class);
 	
 	public static String seedAround(String token) throws IOException{
-		
 		 URL url = new URL("https://f24h2018.herokuapp.com/api/seeds/search");
          HttpURLConnection httpConnection  = (HttpURLConnection) url.openConnection();
          httpConnection.setDoOutput(true);
@@ -24,6 +23,26 @@ public class SeedAround {
          httpConnection.setRequestProperty("Authorization", "Bearer " + token); 
          
          BufferedReader rd = new BufferedReader(new InputStreamReader(httpConnection.getInputStream()));
+	      String line;
+	      StringBuilder result = new StringBuilder();
+	      while ((line = rd.readLine()) != null) {
+	         result.append(line);
+	      }
+	      rd.close();
+	      return result.toString();
+		
+	}
+	
+	public static String getSeed(String token, String id) throws IOException{
+		 URL url = new URL("https://f24h2018.herokuapp.com/api/seeds/:" + id);
+        HttpURLConnection httpConnection  = (HttpURLConnection) url.openConnection();
+        httpConnection.setDoOutput(true);
+        httpConnection.setRequestMethod("GET");
+        httpConnection.setRequestProperty("Content-Type", "application/json");
+        httpConnection.setRequestProperty("Accept", "application/json");
+        httpConnection.setRequestProperty("Authorization", "Bearer " + token); 
+        
+        BufferedReader rd = new BufferedReader(new InputStreamReader(httpConnection.getInputStream()));
 	      String line;
 	      StringBuilder result = new StringBuilder();
 	      while ((line = rd.readLine()) != null) {
@@ -44,12 +63,15 @@ public class SeedAround {
 	         result.append(line);
 	      }
 	      rd.close();
+	      System.out.println(result.toString());
 	      return result.toString();
 	   }
-	 public static void main(String[] args) throws Exception
+	 
+	 
+	/* public static void main(String[] args) throws Exception
 	   {
 	     System.out.println(seedAround("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YTYyNjI0MjczNGQxZDc4MTc0MzZiNjEiLCJyb2xlIjoiYW50IiwiaWF0IjoxNTE2NTA3NTQ0LCJleHAiOjE1MTY1MjU1NDR9.lzzGYE_uagVpCqtU5qL-zwHUBadygafrvNV2oUbGyvk"));
-	   }
+	   }*/
 
 	
 }

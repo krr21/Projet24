@@ -6,12 +6,14 @@ import java.net.URL;
 
 import org.json.JSONObject;
 
+import com.google.gson.Gson;
+
 
 public class Connexion {
 	
-	public static void main(String[] args) {
-
-        try {
+	public String connect() {
+		StringBuilder content = null;
+try {
         	
             // Construct manually a JSON object in Java
             JSONObject data = new JSONObject();
@@ -47,7 +49,7 @@ public class Connexion {
             // To receive the response
 
           
-            StringBuilder content = new StringBuilder();
+            content = new StringBuilder();
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 content.append(line).append("\n");
@@ -55,14 +57,17 @@ public class Connexion {
             bufferedReader.close();
 
             // Prints the response
-            System.out.println(content.toString());
+          
 
         } catch (Exception e) {
             System.out.println("Error Message");
             System.out.println(e.getClass().getSimpleName());
             System.out.println(e.getMessage());
         }
-    }
-
+JSONObject jsonObject = new JSONObject(content.toString());
+String the_token = jsonObject.getString("token");
+System.out.println(the_token);
+return the_token;
+	}
 }
 

@@ -57,7 +57,7 @@ public class TestMain {
 		try {
 			Extract e = new Extract();
 			TestMain.get("https://router.project-osrm.org/route/v1/driving/0.153669,47.923112;0.199556,48.006110?steps=true&continue_straight=true&overview=false");
-			System.out.println(e.getId());
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
