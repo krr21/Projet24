@@ -2,15 +2,18 @@ package Fourmi;
 
 public class Steps {
 
-	/*private Intersections[] intersections;
 
-    private String distance;
+	private Intersections[] intersections;
 
-    private String duration;
 
-    private String weight;
+	    private String distance;
 
-    private String name;
+	    private String duration;
+
+	    private String weight;
+
+	    private String name;
+
 
     private String driving_side;
 
@@ -114,5 +117,6 @@ public class Steps {
     public String toString()
     {
         return "ClassPojo [intersections = "+intersections+", distance = "+distance+", duration = "+duration+", weight = "+weight+", name = "+name+", driving_side = "+driving_side+", maneuver = "+maneuver+", mode = "+mode+", geometry = "+geometry+"]";
-    }*/
+    }
+
 }
