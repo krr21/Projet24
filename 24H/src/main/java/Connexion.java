@@ -16,8 +16,8 @@ public class Connexion {
             // Construct manually a JSON object in Java
             JSONObject data = new JSONObject();
             JSONObject auth = new JSONObject();
-            auth.put("ant1@blue.ant", "Deep");
-            data.put("auth", auth);
+            data.put("email","ant1@blue.ant");
+            data.put("password", "Deep");
             
 
             // URL and parameters for the connection

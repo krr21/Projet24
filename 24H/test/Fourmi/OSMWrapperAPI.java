@@ -150,12 +150,12 @@ import org.xml.sax.SAXException;
 			HttpURLConnection connection = (HttpURLConnection) osm.openConnection();
 			connection.setDoInput(true);
 			connection.setDoOutput(true);
-			connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+			connection.setRequestProperty("Content-Type", "application/json");
 
 			DataOutputStream printout = new DataOutputStream(connection.getOutputStream());
 			printout.writeBytes("data=" + URLEncoder.encode(queryString, "utf-8"));
 			printout.flush();
-			printout.close();
+			printout.close(); 
 
 			DocumentBuilderFactory dbfac = DocumentBuilderFactory.newInstance();
 			DocumentBuilder docBuilder = dbfac.newDocumentBuilder();
