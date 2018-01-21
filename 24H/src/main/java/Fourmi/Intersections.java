@@ -1,6 +1,6 @@
 package Fourmi;
 
-public class Intersection {
+public class Intersections {
 
 	 private String[] location;
 

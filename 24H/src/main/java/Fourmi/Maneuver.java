@@ -1,6 +1,6 @@
 package Fourmi;
 
-public class Maneuvrer {
+public class Maneuver {
 
 	private String modifier;
 
