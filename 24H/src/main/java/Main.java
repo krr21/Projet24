@@ -67,6 +67,7 @@ public class Main {
 		
 	}
 	
+	//recuperation des coordonnées du point
 	private static Point getCoordinates(String text) {
 		Point point = new Point();
 		JSONObject jsonObject = new JSONObject(text);
@@ -76,6 +77,7 @@ public class Main {
 		return point;
 	}
 	
+	//deplacement de la fourmie
 	private static Course formatCourse(Point p1, Point p2) throws IOException {
 		Course course = new Course();
 		

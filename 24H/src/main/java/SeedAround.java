@@ -32,7 +32,7 @@ public class SeedAround {
 	      return result.toString();
 		
 	}
-	
+	//recuperation des graines
 	public static String getSeed(String token, String id) throws IOException{
 		 URL url = new URL("https://f24h2018.herokuapp.com/api/seeds/" + id);
         HttpURLConnection httpConnection  = (HttpURLConnection) url.openConnection();
@@ -52,6 +52,7 @@ public class SeedAround {
 	      return result.toString();
 		
 	}
+	//recuperation des donnees
 	 public static String getHTML(String urlToRead) throws Exception {
 	      StringBuilder result = new StringBuilder();
 	      URL url = new URL(urlToRead);

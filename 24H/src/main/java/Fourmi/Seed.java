@@ -3,6 +3,7 @@ package Fourmi;
 public class Seed {
 
 
+	//declaration des variables
             
     private String _id;
 
@@ -20,6 +21,8 @@ public class Seed {
     {
         return _id;
     }
+    
+    //getters and setters
 
     public void set_id (String _id)
     {

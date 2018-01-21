@@ -18,10 +18,6 @@ public class Graine extends Node implements Serializable{
 		
 	}
 	
-	public void supprimerGraine() {
-		
-	}
-	
 	
 	
 }

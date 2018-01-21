@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Extract {
 
+	//declarations des variables
 	private String type;
 	private Long id;
 	private double lat;
@@ -11,6 +12,7 @@ public class Extract {
 	private List<Long>nodes;
 	
 	
+	//getters and setters
 	public List<Long> getNodes() {
 		return nodes;
 	}

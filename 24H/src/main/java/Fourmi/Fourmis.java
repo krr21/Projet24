@@ -2,6 +2,7 @@ package Fourmi;
 
 public class Fourmis {
 	
+	//declarations des variables
 	private double vitesse;
 	private boolean sens;
 	private boolean support;
@@ -9,7 +10,7 @@ public class Fourmis {
 	private boolean prioDroite;
 	private boolean feu = false;
 	
-	
+	//getters and setters
 	public boolean isFeu() {
 		return feu;
 	}
@@ -70,6 +71,7 @@ public class Fourmis {
 		this.support = support;
 	}
 
+	//si présence de feu
 	public boolean verifStopFeu(){
 		
 		if(feu == true)
@@ -79,7 +81,6 @@ public class Fourmis {
 				return true;
 			}
 		}
-		
 		return false;
 			
 	};
@@ -107,9 +108,6 @@ public class Fourmis {
 		return false;
 	}
 	
-	public void deplacement() {
-		
-		
-	}
+
 	
 }

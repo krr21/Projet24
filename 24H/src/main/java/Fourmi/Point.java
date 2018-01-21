@@ -2,16 +2,25 @@ package Fourmi;
 
 public class Point {
 
+	//variable des points
 	double lat;
 	double lon;
 	
+	//constructeur
 	public Point() {
-		// TODO Auto-generated constructor stub
 	}
+	public Point(double lat, double lon) {
+		super();
+		this.lat = lat;
+		this.lon = lon;
+	}
+	
+	//getters and setters
 
 	public double getLat() {
 		return lat;
 	}
+	
 
 	public void setLat(double lat) {
 		this.lat = lat;
@@ -25,11 +34,7 @@ public class Point {
 		this.lon = lon;
 	}
 
-	public Point(double lat, double lon) {
-		super();
-		this.lat = lat;
-		this.lon = lon;
-	}
+	
 	
 	
 

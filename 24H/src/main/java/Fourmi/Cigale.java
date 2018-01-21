@@ -4,6 +4,7 @@ public class Cigale {
 	
 	Fourmis f = new Fourmis();
 	
+	//verification de la validité du trajet
 	public boolean trajetValide() {
 		
 		if (f.enDehors() == true)

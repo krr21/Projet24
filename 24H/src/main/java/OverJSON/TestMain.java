@@ -9,8 +9,6 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.Test;
-
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -23,6 +21,7 @@ import Fourmi.Point;
 public class TestMain {
 	
 	public static void main(String[] args) {
+		//recupération des valeurs du ovepass.json
 		try {
 			String url = "C:/Users/HP/Desktop/24h code/Projet24/24H/src/main/java/OverJSON/map.json";
 			
@@ -59,6 +58,8 @@ public class TestMain {
 		
 	}
 	
+	
+	//recupération des valeurs  de la route
 	    public static String getCourse(Point departPoint, Point arrivalPoint) throws IOException{
 	    	String url = "https://router.project-osrm.org/route/v1/driving/"+ String.valueOf(departPoint.getLon()) + "," + String.valueOf(departPoint.getLat()) + ";" + String.valueOf(arrivalPoint.getLon()) + "," + String.valueOf(arrivalPoint.getLat()) + "?steps=true&continue_straight=true&overview=false".toString();
 

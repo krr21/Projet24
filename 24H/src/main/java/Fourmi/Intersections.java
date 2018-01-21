@@ -65,6 +65,6 @@ public class Intersections {
 	    @Override
 	    public String toString()
 	    {
-	        return "ClassPojo [location = "+location+", bearings = "+bearings+", entry = "+entry+", in = "+in+", out = "+out+"]";
+	        return "ClassIntersection [location = "+location+", bearings = "+bearings+", entry = "+entry+", in = "+in+", out = "+out+"]";
 	    }
 }
