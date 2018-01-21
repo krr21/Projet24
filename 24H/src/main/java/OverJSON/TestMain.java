@@ -18,6 +18,8 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.stream.JsonReader;
 
+import Fourmi.Point;
+
 public class TestMain {
 	
 	public static void main(String[] args) {
@@ -53,33 +55,27 @@ public class TestMain {
 			
 			System.err.println(e.getMessage());
 		}
-		
-		try {
-			Extract e = new Extract();
-			TestMain.get("https://router.project-osrm.org/route/v1/driving/0.153669,47.923112;0.199556,48.006110?steps=true&continue_straight=true&overview=false");
-			
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
 		
 	}
 	
-	    public static String get(String url) throws IOException{
+	    public static String getCourse(Point departPoint, Point arrivalPoint) throws IOException{
+	    	String url = "https://router.project-osrm.org/route/v1/driving/"+ String.valueOf(departPoint.getLon()) + "," + String.valueOf(departPoint.getLat()) + ";" + String.valueOf(arrivalPoint.getLon()) + "," + String.valueOf(arrivalPoint.getLat()) + "?steps=true&continue_straight=true&overview=false".toString();
 
-		String source ="";
+			System.out.println(url);
+			//url = "https://router.project-osrm.org/route/v1/driving/0.153669,47.923112;0.199556,48.006110?steps=true&continue_straight=true&overview=false";
+	    	String source ="";
 		URL oracle = new URL(url);
 		URLConnection yc = oracle.openConnection();
 		BufferedReader in = new BufferedReader(
-		new InputStreamReader(
-		yc.getInputStream()));
+				new InputStreamReader(yc.getInputStream()));
 		String inputLine;
 
 		while ((inputLine = in.readLine()) != null)
 		source +=inputLine;
 		in.close();
 		System.out.println(source);
+		
 		return source;
 		}
 

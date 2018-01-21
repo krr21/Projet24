@@ -34,7 +34,7 @@ public class SeedAround {
 	}
 	
 	public static String getSeed(String token, String id) throws IOException{
-		 URL url = new URL("https://f24h2018.herokuapp.com/api/seeds/:" + id);
+		 URL url = new URL("https://f24h2018.herokuapp.com/api/seeds/" + id);
         HttpURLConnection httpConnection  = (HttpURLConnection) url.openConnection();
         httpConnection.setDoOutput(true);
         httpConnection.setRequestMethod("GET");

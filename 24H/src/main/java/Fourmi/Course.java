@@ -1,19 +1,19 @@
 package Fourmi;
 
-public class MyPojo {
+public class Course {
 
-	 private Route[] routes;
+	 private Route2[] routes;
 
 	    private String code;
 
 	    private Waypoints[] waypoints;
 
-	    public Route[] getRoutes ()
+	    public Route2[] getRoutes ()
 	    {
 	        return routes;
 	    }
 
-	    public void setRoutes (Route[] routes)
+	    public void setRoutes (Route2[] routes)
 	    {
 	        this.routes = routes;
 	    }
